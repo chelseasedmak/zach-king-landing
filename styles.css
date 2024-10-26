@@ -1,0 +1,69 @@
+body {
+    background-color: #FFF4EB;
+
+
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-size: 4rem;
+    color: #0F0A06;
+    font-style: italic;
+    letter-spacing: -4px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Lateef", serif;
+    font-size: 3.125rem;
+    color: #0F0A06;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 0%;
+}
+
+h3 {
+    font-family: "Lateef", serif;
+    font-size: 2.5rem;
+    color: #0F0A06;
+    font-weight: 400;
+    line-height: 0%;
+}
+
+h4 {
+    font-family: "Lateef", serif;
+    font-size: 2rem;
+    color: #0F0A06;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Lateef", serif;
+    font-size: 1.75rem;
+    color: #0F0A06;
+}
+
+h6 {
+    font-family: "Lateef", serif;
+    font-size: 1.5rem;
+    color: #0F0A06;
+}
+
+p {
+    font-family: "Lateef", serif;
+    font-size: 1.25rem;
+    color: #0F0A06;
+}
+
+/*NAVIGATION*/
+li {
+    font-family: "Lateef", serif;
+    font-size: 2rem;
+    color: #0F0A06;
+}
+
+a {
+    font-family: "Lateef", serif;
+    font-size: 1.75rem;
+    color: #0F0A06;
+}
