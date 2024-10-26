@@ -1,21 +1,35 @@
+/*GENERAL STYLING*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #FFF4EB;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
 
-
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
 h1 {
     font-family: "EB Garamond", serif;
-    font-size: 4rem;
+    font-size: 4.2rem;
     color: #0F0A06;
     font-style: italic;
     letter-spacing: -4px;
     font-weight: 600;
+    line-height: 0%;
 }
 
 h2 {
     font-family: "Lateef", serif;
-    font-size: 3.125rem;
+    font-size: 2.8rem;
     color: #0F0A06;
     font-weight: 400;
     letter-spacing: 2px;
@@ -24,7 +38,7 @@ h2 {
 
 h3 {
     font-family: "Lateef", serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #0F0A06;
     font-weight: 400;
     line-height: 0%;
@@ -45,7 +59,7 @@ h5 {
 
 h6 {
     font-family: "Lateef", serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #0F0A06;
 }
 
@@ -56,6 +70,14 @@ p {
 }
 
 /*NAVIGATION*/
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
 li {
     font-family: "Lateef", serif;
     font-size: 2rem;
@@ -64,6 +86,316 @@ li {
 
 a {
     font-family: "Lateef", serif;
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: #0F0A06;
+    text-decoration: none;
+}
+
+/*HERO SECTION*/
+#background-image-container {
+    background-image: url('assets/photos/bg-texture.png');
+}
+
+.hero-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.album-photo {
+    max-width: 500px;
+}
+
+.hero-section-text {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hero-section-button {
+    border: 1px solid #0F0A06;
+    border-radius: 100px;
+    padding: 20px 48px;
+    line-height: 0%;
+}
+
+.social-icons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 40%;
+    right: 3%;
+}
+
+.social-icon {
+    width: 2.3rem;
+    z-index: 1000;
+}
+
+/*MUSIC SECTION*/
+#music-section-background-container {
+    background-color: #EFE4DC;
+}
+
+#music-section {
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.music-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.music-section-header {
+    color: #0F0A06;
+    margin-bottom: 6%;
+}
+
+.music-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.music-cover {
+    max-width: 300px;
+}
+
+.music-section-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-section-button {
+    border: 1px solid #0F0A06;
+    border-radius: 100px;
+    padding: 16px 24px;
+    line-height: 0%;
+    font-size: 1.5rem;
+    width: 8rem;
+}
+
+.music-section-arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    margin-top: 5%;
+}
+
+/*TOUR SECTION*/
+#tour-section {
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.tour-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tour-header {
+    margin-bottom: 5%;
+}
+
+.tour-event-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.tour {
+    line-height: 0%;
+    letter-spacing: 1px;
+}
+
+h5.tour {
+    margin-bottom: 28px;
+    margin-top: 28px;
+    letter-spacing: 1px;
+}
+
+.line {
+    height: 0px;
+    border: 1px solid #0F0A06;
+    width: 50%;
+    opacity: 35%;
+}
+
+.tour-button {
+    border: 1px solid #0F0A06;
+    border-radius: 100px;
+    line-height: 0%;
+    font-size: 1.1rem;
+    margin-right: 8px;
+    padding: 0px 32px;
+}
+
+/*SHOP SECTION*/
+#shop-section {
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.shop-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.merch-photo {
+    width: 70%;
+}
+
+.shop-button {
+    width: 70%;
+    border: 1px solid #0F0A06;
+    border-radius: 100px;
+    padding: 12px 0px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+/*ABOUT SECTION*/
+#about-section {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.about-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about-text-container {
+    max-width: 600px;
+}
+
+.bio-photo {
+    max-width: 475px;
+}
+
+/*FOOTER*/
+#footer-top {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-top: 4%;
+}
+
+.laylo-embed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header {
+    margin: 28px;
+    line-height: 0%;
+}
+
+.subscribe-laylo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4%;
+    width: 80%;
+}
+
+.subscribe-form,
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 50%;
+}
+
+.laylo-embed {
+    width: 50%;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid #0F0A06;
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: 100%;
+    color: #0F0A06;
+    font-family: "Lateef", serif;
+    font-size: 1.1rem;
+}
+
+button {
+    border: 1px solid #0F0A06;
+    border-radius: 100px;
+    background-color: transparent;
+    color: #0F0A06;
+    font-family: "Lateef", serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+/*BOTTOM FOOTER*/
+.footer-bottom-background-container {
+    background-color: #0F0A06;
+    margin: 0px;
+}
+
+#footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 24px;
+}
+
+.management-booking-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.mgmt-booking {
+    color: #FFF4EB;
+    margin: 0%;
+    text-align: center;
+
 }
