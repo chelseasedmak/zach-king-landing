@@ -59,122 +59,26 @@
             <div class="music-section-container">
                 <h1 class="music-section-header">MUSIC</h1>
                 <div class="music-content-wrapper">
-                    <a href="link.com"> <img src="assets/icons/icon-prev (7).svg" target="_blank" alt="prev button"
-                            class="prev-icon">
+                    <a href="javascript:void(0)" class="prev-button" onclick="prevSlide()">
+                        <img src="assets/icons/icon-prev (7).svg" alt="prev button" class="prev-icon">
                     </a>
-                    <div class="music-section-content">
-                        <img src="assets/photos/Hole-Wall-ZJK.png" alt="music-cover" class="music-cover">
-                        <div class="music-section-text">
-                            <h3>HOLE IN THE WALL</h3>
-                            <a href="link.com" class="music-section-button">LISTEN NOW</a>
-                        </div>
+                    <div class="carousel" id="carousel">
                     </div>
-                    <div class="music-section-content">
-                        <img src="assets/photos/Hole-Wall-ZJK.png" alt="music-cover" class="music-cover">
-                        <div class="music-section-text">
-                            <h3>HOLE IN THE WALL</h3>
-                            <a href="link.com" class="music-section-button">LISTEN NOW</a>
-                        </div>
-                    </div>
-                    <div class="music-section-content">
-                        <img src="assets/photos/Hole-Wall-ZJK.png" alt="music-cover" class="music-cover">
-                        <div class="music-section-text">
-                            <h3>HOLE IN THE WALL</h3>
-                            <a href="link.com" class="music-section-button">LISTEN NOW</a>
-                        </div>
-                    </div>
-                    <a href="link.com"> <img src="assets/icons/icon-next (5).svg" target="_blank" alt="next button"
-                            class="next-icon">
+                    <a href="javascript:void(0)" class="next-button" onclick="nextSlide()">
+                        <img src="assets/icons/icon-next (5).svg" alt="next button" class="next-icon">
                     </a>
                 </div>
             </div>
         </section>
     </div>
 
+
+
     <div id="background-image-container">
         <section id="tour-section">
             <div class="tour-section-container">
                 <h1 class="tour-header">UPCOMING SHOWS</h1>
-                <div class="tour-event-container">
-                    <div class="date-location-container">
-                        <h5 class="tour">NOV 15 FRI</h5>
-                        <p class="tour">
-                            Conner Smith's Storyteller Tour @ 7pm
-                        </p>
-                        <p class="tour">
-                            Wyandotte, MI, United States
-                        </p>
-                    </div>
-                    <div class="tour-buttons-container">
-                        <a href="link.com" class="tour-button">RSVP</a>
-                        <a href="link.com" class="tour-button">TICKETS</a>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="tour-event-container">
-                    <div class="date-location-container">
-                        <h5 class="tour">NOV 15 FRI</h5>
-                        <p class="tour">
-                            Conner Smith's Storyteller Tour @ 7pm
-                        </p>
-                        <p class="tour">
-                            Wyandotte, MI, United States
-                        </p>
-                    </div>
-                    <div class="tour-buttons-container">
-                        <a href="link.com" class="tour-button">RSVP</a>
-                        <a href="link.com" class="tour-button">TICKETS</a>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="tour-event-container">
-                    <div class="date-location-container">
-                        <h5 class="tour">NOV 15 FRI</h5>
-                        <p class="tour">
-                            Conner Smith's Storyteller Tour @ 7pm
-                        </p>
-                        <p class="tour">
-                            Wyandotte, MI, United States
-                        </p>
-                    </div>
-                    <div class="tour-buttons-container">
-                        <a href="link.com" class="tour-button">RSVP</a>
-                        <a href="link.com" class="tour-button">TICKETS</a>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="tour-event-container">
-                    <div class="date-location-container">
-                        <h5 class="tour">NOV 15 FRI</h5>
-                        <p class="tour">
-                            Conner Smith's Storyteller Tour @ 7pm
-                        </p>
-                        <p class="tour">
-                            Wyandotte, MI, United States
-                        </p>
-                    </div>
-                    <div class="tour-buttons-container">
-                        <a href="link.com" class="tour-button">RSVP</a>
-                        <a href="link.com" class="tour-button">TICKETS</a>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="tour-event-container">
-                    <div class="date-location-container">
-                        <h5 class="tour">NOV 15 FRI</h5>
-                        <p class="tour">
-                            Conner Smith's Storyteller Tour @ 7pm
-                        </p>
-                        <p class="tour">
-                            Wyandotte, MI, United States
-                        </p>
-                    </div>
-                    <div class="tour-buttons-container">
-                        <a href="link.com" class="tour-button">RSVP</a>
-                        <a href="link.com" class="tour-button">TICKETS</a>
-                    </div>
-                </div>
-                <div class="line"></div>
+                <div id="events-container"></div>
             </div>
         </section>
     </div>
@@ -273,7 +177,7 @@
             <p class="mgmt-booking">© 2024 Zach John King. All Rights Reserved. Built by Company XX.</p>
         </section>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 /*GENERAL STYLING*/
 html {
     scroll-behavior: smooth;
-    font-size: clamp(10px, 1vw, 16px);
+    font-size: clamp(11px, 1vw, 16px);
 }
 
 body {
@@ -223,14 +223,6 @@ a:hover {
     margin-bottom: 6%;
 }
 
-.music-content-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 4rem;
-}
-
 .next-icon,
 .prev-icon {
     margin-bottom: 100px;
@@ -270,6 +262,32 @@ a:hover {
     margin-top: 5%;
 }
 
+.music-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    width: 80%;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.music-section-content {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 @media (max-width: 900px) {
 
     #music-section {
@@ -285,6 +303,16 @@ a:hover {
     .next-icon,
     .prev-icon {
         display: none;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .music-section-content {
+        margin-bottom: 25%;
     }
 }
 
@@ -305,16 +333,20 @@ a:hover {
     margin-bottom: 5%;
 }
 
+.events-container {
+    width: 100%;
+}
+
 .tour-event-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 100%;
     margin-top: 16px;
     margin-bottom: 16px;
+    gap: 100px;
 }
-
 
 .tour {
     line-height: 0%;
@@ -330,7 +362,7 @@ h5.tour {
 .line {
     height: 0px;
     border: 1px solid #0F0A06;
-    width: 50%;
+    width: 100%;
     opacity: 35%;
 }
 
@@ -359,6 +391,7 @@ h5.tour {
         display: flex;
         flex-direction: column;
         width: 100%;
+        gap: 8px;
     }
 
     h5.tour {
