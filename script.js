@@ -12,7 +12,7 @@ document.querySelector('.prev-button').addEventListener('click', prevSlide);
 const musicItems = [
     { title: "I'D LIKE TO THINK", imgSrc: "assets/photos/think-photo.png", link: "link.com" },
     { title: "HOLE IN THE WALL", imgSrc: "assets/photos/Hole-Wall-ZJK.png", link: "link.com" },
-    { title: "WANNABE BE COWBOY EP", imgSrc: "assets/photos/cowboy-photo.png", link: "link.com" },
+    { title: "WANNABE COWBOY", imgSrc: "assets/photos/cowboy-photo.png", link: "link.com" },
     { title: "SEE IT FOR MYSELF", imgSrc: "assets/photos/myself-photo.png", link: "link.com" },
     { title: "SMOKE ON MY JACKET", imgSrc: "assets/photos/smoke-photo.png", link: "link.com" },
     { title: "SAME SONG", imgSrc: "assets/photos/same-song-photo.png", link: "link.com" }
