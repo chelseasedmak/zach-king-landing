@@ -104,9 +104,7 @@ a:hover {
 @media (max-width: 900px) {
     ul {
         flex-direction: row;
-        /* Keep logo above links */
         align-items: center;
-        /* Center items */
         flex-wrap: wrap;
         justify-content: space-between;
         padding-inline-start: 0px;
@@ -114,10 +112,8 @@ a:hover {
         margin-bottom: 10%;
     }
 
-    /* Style to make <li> items appear in a row */
     li:not(:last-child) {
         display: inline;
-        /* Keep <a> items in a row */
     }
 }
 
@@ -561,6 +557,13 @@ button {
     width: 100%;
 }
 
+button:hover {
+    letter-spacing: 2px;
+    background-color: #EFE4DC;
+    transition: .5s background-color ease;
+    transition: .5s letter-spacing ease;
+}
+
 @media (max-width: 1200px) {
     .subscribe-form {
         display: none;
@@ -631,5 +634,6 @@ button {
     color: #FFF4EB;
     margin: 0%;
     text-align: center;
+    font-size: 1.25rem;
 
 }
